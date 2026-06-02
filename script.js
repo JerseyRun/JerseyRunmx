@@ -1,4 +1,4 @@
-const PHONE = "525522129163"; // Cambia aquí tu WhatsApp con lada. Ejemplo: 5215512345678
+const PHONE = "525522129163"; // Cambia aquí tu WhatsApp con lada. Ejemplo: 525522129163
 const PRICE = 800;
 
 const products = [

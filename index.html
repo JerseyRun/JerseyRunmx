@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jersey Run MX | Chase. Find. Wear.</title>
+  <meta name="description" content="Jerseys estilo fan premium. Stock limitado y sobre pedido con 50% de anticipo." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="#inicio"><img src="assets/hero-logo.jpeg" alt="Jersey Run MX"></a>
+    <nav>
+      <a href="#stock">Stock</a>
+      <a href="#sobrepedido">Sobre pedido</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#contacto">Comprar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NBA jerseys · retro · current · city editions</p>
+        <h1>Jerseys para verdaderos fans.</h1>
+        <p class="lead">Stock limitado en México y Dinamarca. También conseguimos modelos especiales sobre pedido con 50% de anticipo.</p>
+        <div class="actions">
+          <a class="btn primary" href="#stock">Ver inventario</a>
+          <a class="btn ghost" id="whatsappHero" target="_blank" rel="noopener">Comprar por WhatsApp</a>
+        </div>
+        <div class="trust">
+          <span>🏀 $800 MXN</span><span>📦 Envíos a México</span><span>🔥 Drops limitados</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/brand-board.jpeg" alt="Jersey Run MX marca" />
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Categorías">
+      <div>Jordan • Kobe • Curry • LeBron • Wembanyama • Doncic • Iverson • Tatum • Rose • Jokic • Edwards • LaMelo</div>
+    </section>
+
+    <section id="stock" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">stock inmediato</p>
+          <h2>Inventario disponible</h2>
+        </div>
+        <p class="muted">Filtra por jugador, equipo, talla o estilo. Cada jersey cuesta <strong>$800 MXN</strong>.</p>
+      </div>
+
+      <div class="filters">
+        <input id="search" type="search" placeholder="Buscar: Kobe, Lakers, talla M..." />
+        <select id="sizeFilter"><option value="">Todas las tallas</option><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+        <select id="branchFilter"><option value="">Todas las sedes</option><option>Mexico</option><option>Dinamarca</option></select>
+      </div>
+      <div id="products" class="grid"></div>
+    </section>
+
+    <section id="sobrepedido" class="section split">
+      <div>
+        <p class="eyebrow">chase · find · wear</p>
+        <h2>¿Buscas uno especial?</h2>
+        <p>Tenemos acceso a un catálogo amplio de jerseys retro, actuales, city edition y modelos de colección. El pedido se aparta con 50% y llega aproximadamente en mes y medio.</p>
+        <ul class="steps">
+          <li><b>1.</b> Mándanos jugador, equipo y talla.</li>
+          <li><b>2.</b> Confirmamos disponibilidad y diseño.</li>
+          <li><b>3.</b> Apartas con 50% y liquidás contra entrega.</li>
+        </ul>
+        <a class="btn primary" id="customOrder" target="_blank" rel="noopener">Pedir cotización</a>
+      </div>
+      <div class="request-card">
+        <h3>Modelos populares sobre pedido</h3>
+        <div class="chips" id="chips"></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow">información clara</p>
+      <h2>Preguntas frecuentes</h2>
+      <details open><summary>¿Son originales?</summary><p>Son jerseys versión fan premium para coleccionistas. No se anuncian como productos oficiales.</p></details>
+      <details><summary>¿Cuánto cuestan?</summary><p>El precio de stock es de $800 MXN por jersey. Pedidos especiales pueden variar según modelo y disponibilidad.</p></details>
+      <details><summary>¿Cuánto tarda el sobre pedido?</summary><p>Aproximadamente 4 a 6 semanas. Puede variar por logística, aduana o disponibilidad.</p></details>
+      <details><summary>¿Cómo aparto?</summary><p>Con 50% de anticipo. El resto se paga antes de entrega/envío.</p></details>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <h2>¿Listo para encontrar tu jersey?</h2>
+      <p>Escríbenos por WhatsApp y te confirmamos stock, tallas y envío.</p>
+      <a class="btn primary big" id="whatsappBottom" target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Jersey Run MX</strong> · Chase. Find. Wear.</p>
+    <p class="legal">Jersey Run MX es un distribuidor independiente de jerseys versión fan premium para coleccionistas. No está afiliado, patrocinado ni autorizado por NBA, Nike, Adidas, Mitchell & Ness, Fanatics ni por franquicias deportivas. Las marcas, nombres de equipos y jugadores pertenecen a sus respectivos propietarios y se usan únicamente como referencia descriptiva del diseño solicitado.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
